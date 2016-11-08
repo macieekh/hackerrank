@@ -1,24 +1,24 @@
 package hr_02;
 
+
 import java.util.Scanner;
 
 public class Hr02 {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            double mealCost = scan.nextDouble();
+            int tipPercent = scan.nextInt();
+            int taxPercent = scan.nextInt();
+            scan.close();
 
-        int i = 4;
-        double d = 4.0;
-        String str = "HackerRank ";
+            double tip = mealCost * tipPercent/100;
+            double tax = mealCost * taxPercent/100;
+            int totalCost = (int) Math.round(mealCost+tip+tax);
 
-        Scanner scan = new Scanner(System.in);
-
-        int i1 = scan.nextInt();
-        double d1 = scan.nextDouble();
-        String str1 = scan.next();
-
-        System.out.println(i+i1);
-        System.out.println(d+d1);
-        System.out.println(str+str1);
-
-    }
+            System.out.println(totalCost);
+        }
 }
+
+
+
