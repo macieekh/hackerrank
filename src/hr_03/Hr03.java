@@ -12,8 +12,8 @@ public class Hr03 {
             int taxPercent = scan.nextInt();
             scan.close();
 
-            double tip = mealCost * (double) tipPercent/100;
-            double tax = mealCost * (double) taxPercent/100;
+            double tip = mealCost * tipPercent/100;
+            double tax = mealCost * taxPercent/100;
             int totalCost = (int) Math.round(mealCost+tip+tax);
 
             System.out.println(totalCost);
