@@ -15,21 +15,17 @@ public class Hr06 {
             String temp = inputArray[i];
             char[] tempCharArray = temp.toCharArray();
 
-            for(int x = 0; x < tempCharArray.length; x++){
-                if ((x % 2) == 0) {
-                    System.out.print(tempCharArray[x]);
-                }
-            }
-            System.out.print(" ");
-            for(int x = 0; x < tempCharArray.length; x++){
-                if ((x % 2) != 0) {
-                    System.out.print(tempCharArray[x]);
-                }
-            }
-            System.out.println(" ");
+            printEvenOrOdd(0, tempCharArray);
+            printEvenOrOdd(1, tempCharArray);
+            System.out.println("");
+
         }
+    }
+    public static void printEvenOrOdd(int a, char[] tempCharArray) {
 
-
-
+        for(int x = a; x < tempCharArray.length; x += 2){
+                System.out.print(tempCharArray[x]);
+        }
+        System.out.print(" ");
     }
 }
