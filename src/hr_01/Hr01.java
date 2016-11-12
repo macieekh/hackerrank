@@ -14,11 +14,12 @@ public class Hr01 {
 
         int i1 = scan.nextInt();
         double d1 = scan.nextDouble();
-        String str1 = scan.next();
+        scan.nextLine();
+        String str1 = scan.nextLine();
 
         System.out.println(i+i1);
         System.out.println(d+d1);
-        System.out.println(str+str1);
+        System.out.println(str.concat(str1));
 
     }
 }
