@@ -1,5 +1,3 @@
-//filename MyBook.java
-
 package hr_13;
 
 public class MyBook extends Book {

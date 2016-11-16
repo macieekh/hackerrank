@@ -1,5 +1,3 @@
-//FILENAME Hr13.Java
-
 package hr_13;
 
 import java.util.Scanner;

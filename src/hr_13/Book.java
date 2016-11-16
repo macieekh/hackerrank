@@ -1,5 +1,3 @@
-//filename Book.Java
-
 package hr_13;
 
 
