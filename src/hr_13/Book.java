@@ -1,6 +1,5 @@
 package hr_13;
 
-
 public abstract class Book {
     String title;
     String author;

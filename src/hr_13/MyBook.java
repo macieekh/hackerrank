@@ -1,15 +1,10 @@
 package hr_13;
 
 public class MyBook extends Book {
-    public String title;
-    public String author;
-    public int price;
-
+     public int price;
 
     public MyBook (String title, String author, int price) {
         super(title, author);
-        this.title = title;
-        this.author = author;
         this.price = price;
     }
 
