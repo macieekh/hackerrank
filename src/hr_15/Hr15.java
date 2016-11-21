@@ -2,7 +2,6 @@ package hr_15;
 
 
 import java.util.Scanner;
-import java.util.jar.Pack200;
 
 public class Hr15 {
 
@@ -29,7 +28,7 @@ public class Hr15 {
     }
 
     public static Node insert(Node head,int data) {
-        //Node temp;
+
         Node temp = head;
         Node lastnode = new Node(data);
         if (temp == null) {
@@ -40,15 +39,6 @@ public class Hr15 {
             }
             temp.next = lastnode;
         }
-        /*}
-        else {
-            while (head.next != null) {
-                temp = temp.next;
-            }
-            Node lastnode = new Node (data);
-            temp.next = lastnode;
-        }*/
-
         return head;
     }
 }
