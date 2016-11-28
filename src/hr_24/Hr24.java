@@ -19,7 +19,6 @@ public class Hr24 {
             }
         }
         return head;
-
     }
 
 
@@ -40,6 +39,7 @@ public class Hr24 {
         }
         return head;
     }
+
     public static void display(Node head)
     {
         Node start=head;
