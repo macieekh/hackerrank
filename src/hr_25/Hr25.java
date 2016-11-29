@@ -22,6 +22,7 @@ public class Hr25 {
     public static String prime(Integer n) {
         double sqrt = Math.sqrt(n);
         boolean isPrime = true;
+
         for (double i = 2; i <= sqrt ; i++) {
             if (n % i == 0) {
                 isPrime = false;
